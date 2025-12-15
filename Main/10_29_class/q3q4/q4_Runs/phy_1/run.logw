@@ -1,0 +1,68 @@
+============================================================
+   Tang Dynasty, V6.2.168116
+   Copyright (c) 2012-2025 Anlogic Inc.
+   Executable = E:/anlu/bin/run.exe
+   Built at =   16:32:07 Jun 12 2025
+   Run by =     Lenovo
+   Run Date =   Tue Nov  4 10:45:39 2025
+
+   Run on =     LAPTOP-2020B3A6
+============================================================
+USR-6001 WARNING: No ports matched 'get_ports clk'
+USR-6136 CRITICAL-WARNING: 'derive_pll_clocks' is obsolete. Please use 'derive_clocks' instead, which handles more types of clock deriving resources. 
+Launching timing wizard will update this command automatically.
+USR-6001 WARNING: No ports matched 'get_ports clk'
+USR-6001 WARNING: No ports matched 'get_ports clk'
+USR-6001 WARNING: No ports matched 'get_ports clk'
+USR-6001 WARNING: No pins matched 'get_pins video_pll_m0/pll_inst.clkc[0]'
+USR-8124 CRITICAL-WARNING: Rename_clock: please specify object list.
+USR-8159 CRITICAL-WARNING: Command rename_clock -name {video_clk} -source [get_ports {clk}] -master_clock {clk} [get_pins {video_pll_m0/pll_inst.clkc[0]}] in C:/Users/Lenovo/Desktop/11_3/10_29_class/q3q4/top.sdc(25) fails.
+USR-6136 CRITICAL-WARNING: 'derive_pll_clocks' is obsolete. Please use 'derive_clocks' instead, which handles more types of clock deriving resources. 
+Launching timing wizard will update this command automatically.
+USR-6001 WARNING: No ports matched 'get_ports clk'
+USR-6001 WARNING: No ports matched 'get_ports clk'
+USR-8125 CRITICAL-WARNING: Rename_clock: cannot find target clock.
+USR-8159 CRITICAL-WARNING: Command rename_clock -name {ext_mem_clk} -source [get_ports {clk}] -master_clock {clk} [get_pins {sys_pll_m0/pll_inst.clkc[1]}] in C:/Users/Lenovo/Desktop/11_3/10_29_class/q3q4/top.sdc(24) fails.
+USR-6133 CRITICAL-WARNING: Clock definition problem: primary clock sys_pll_m0/pll_inst.refclk is defined on internal clock network. Please use create_generated_clock instead.
+USR-6133 CRITICAL-WARNING: Clock definition problem: primary clock u_clk_gen/u_pll_0/pll_inst.refclk is defined on internal clock network. Please use create_generated_clock instead.
+USR-6133 CRITICAL-WARNING: Clock definition problem: primary clock u_rx_pll/pll_inst.refclk is defined on internal clock network. Please use create_generated_clock instead.
+USR-6133 CRITICAL-WARNING: Clock definition problem: primary clock u_video_mem_pll/pll_inst.refclk is defined on internal clock network. Please use create_generated_clock instead.
+USR-6001 WARNING: No ports matched 'get_ports clk'
+USR-6136 CRITICAL-WARNING: 'derive_pll_clocks' is obsolete. Please use 'derive_clocks' instead, which handles more types of clock deriving resources. 
+Launching timing wizard will update this command automatically.
+USR-6001 WARNING: No ports matched 'get_ports clk'
+USR-6001 WARNING: No ports matched 'get_ports clk'
+USR-6001 WARNING: No ports matched 'get_ports clk'
+USR-6001 WARNING: No pins matched 'get_pins video_pll_m0/pll_inst.clkc[0]'
+USR-8124 CRITICAL-WARNING: Rename_clock: please specify object list.
+USR-8159 CRITICAL-WARNING: Command rename_clock -name {video_clk} -source [get_ports {clk}] -master_clock {clk} [get_pins {video_pll_m0/pll_inst.clkc[0]}] in C:/Users/Lenovo/Desktop/11_3/10_29_class/q3q4/top.sdc(25) fails.
+USR-6136 CRITICAL-WARNING: 'derive_pll_clocks' is obsolete. Please use 'derive_clocks' instead, which handles more types of clock deriving resources. 
+Launching timing wizard will update this command automatically.
+USR-6001 WARNING: No ports matched 'get_ports clk'
+USR-6001 WARNING: No ports matched 'get_ports clk'
+USR-8125 CRITICAL-WARNING: Rename_clock: cannot find target clock.
+USR-8159 CRITICAL-WARNING: Command rename_clock -name {ext_mem_clk} -source [get_ports {clk}] -master_clock {clk} [get_pins {sys_pll_m0/pll_inst.clkc[1]}] in C:/Users/Lenovo/Desktop/11_3/10_29_class/q3q4/top.sdc(24) fails.
+PHY-7002 CRITICAL-WARNING: Instance u_sdram_ip/sdram location (12, 12) is not honored. Cell's initial location is not legal at the beginning of ECO placement, and will be moved during placement. Please verify user location constraints through the adc file.
+PHY-7002 CRITICAL-WARNING: Instance u_sdram_ip/sdram location (164, 288) is not honored. Cell's initial location is not legal at the beginning of ECO placement, and will be moved during placement. Please verify user location constraints through the adc file.
+
+USR-6001 WARNING: No ports matched 'get_ports clk'
+USR-6136 CRITICAL-WARNING: 'derive_pll_clocks' is obsolete. Please use 'derive_clocks' instead, which handles more types of clock deriving resources. 
+Launching timing wizard will update this command automatically.
+USR-6001 WARNING: No ports matched 'get_ports clk'
+USR-6001 WARNING: No ports matched 'get_ports clk'
+USR-6001 WARNING: No ports matched 'get_ports clk'
+USR-6001 WARNING: No pins matched 'get_pins video_pll_m0/pll_inst.clkc[0]'
+USR-8124 CRITICAL-WARNING: Rename_clock: please specify object list.
+USR-8159 CRITICAL-WARNING: Command rename_clock -name {video_clk} -source [get_ports {clk}] -master_clock {clk} [get_pins {video_pll_m0/pll_inst.clkc[0]}] in C:/Users/Lenovo/Desktop/11_3/10_29_class/q3q4/top.sdc(25) fails.
+USR-6136 CRITICAL-WARNING: 'derive_pll_clocks' is obsolete. Please use 'derive_clocks' instead, which handles more types of clock deriving resources. 
+Launching timing wizard will update this command automatically.
+USR-6001 WARNING: No ports matched 'get_ports clk'
+USR-6001 WARNING: No ports matched 'get_ports clk'
+USR-8125 CRITICAL-WARNING: Rename_clock: cannot find target clock.
+USR-8159 CRITICAL-WARNING: Command rename_clock -name {ext_mem_clk} -source [get_ports {clk}] -master_clock {clk} [get_pins {sys_pll_m0/pll_inst.clkc[1]}] in C:/Users/Lenovo/Desktop/11_3/10_29_class/q3q4/top.sdc(24) fails.
+USR-6133 CRITICAL-WARNING: Clock definition problem: primary clock sys_pll_m0/pll_inst.refclk is defined on internal clock network. Please use create_generated_clock instead.
+USR-6133 CRITICAL-WARNING: Clock definition problem: primary clock u_clk_gen/u_pll_0/pll_inst.refclk is defined on internal clock network. Please use create_generated_clock instead.
+USR-6133 CRITICAL-WARNING: Clock definition problem: primary clock u_rx_pll/pll_inst.refclk is defined on internal clock network. Please use create_generated_clock instead.
+USR-6133 CRITICAL-WARNING: Clock definition problem: primary clock u_video_mem_pll/pll_inst.refclk is defined on internal clock network. Please use create_generated_clock instead.
+PHY-5079 CRITICAL-WARNING: Marked 1 clock net(s) utilize the local routing resources. Please check log message and the sinks of clock nets.
+PHY-5089 WARNING: Skip 21 abnormal timing path for routing due to clock skew is greater than 1000ps or hold slack is less than -1000ps, use load pr.db and report_abnormal_timing_target -file to get detail message. If need to fix these hold violation, place turn on hold fix high.

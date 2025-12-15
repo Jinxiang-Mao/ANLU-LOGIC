@@ -1,0 +1,40 @@
+============================================================
+   Tang Dynasty, V6.2.168116
+   Copyright (c) 2012-2025 Anlogic Inc.
+   Executable = E:/anlu/bin/run.exe
+   Built at =   16:32:07 Jun 12 2025
+   Run by =     Lenovo
+   Run Date =   Tue Nov  4 11:29:05 2025
+
+   Run on =     LAPTOP-2020B3A6
+============================================================
+USR-6001 WARNING: No ports matched 'get_ports clk'
+USR-6001 WARNING: No pins matched 'get_pins sys_pll_m0/pll_inst.clkc[1]'
+USR-8124 CRITICAL-WARNING: Rename_clock: please specify object list.
+USR-8159 CRITICAL-WARNING: Command rename_clock -name {ext_mem_clk} -source [get_ports {clk}] -master_clock {clk} [get_pins {sys_pll_m0/pll_inst.clkc[1]}] in C:/Users/Lenovo/Desktop/key34/key34/source_code/constraints/UDP.sdc(14) fails.
+KIT-5618 CRITICAL-WARNING: the bus debug_app_rx_data[7:0] is invalid in chipwatcher, ignored.
+KIT-5603 WARNING: Net debug_app_rx_data_valid is invalid in chipwatcher, ignored.
+KIT-5618 CRITICAL-WARNING: the bus debug_app_tx_data[7:0] is invalid in chipwatcher, ignored.
+KIT-5603 WARNING: Net debug_app_tx_data_valid is invalid in chipwatcher, ignored.
+KIT-5618 CRITICAL-WARNING: the bus debug_rx_data[7:0] is invalid in chipwatcher, ignored.
+KIT-5603 WARNING: Net debug_rx_valid is invalid in chipwatcher, ignored.
+KIT-5618 CRITICAL-WARNING: the bus debug_temac_rx_data[7:0] is invalid in chipwatcher, ignored.
+KIT-5603 WARNING: Net debug_temac_rx_valid is invalid in chipwatcher, ignored.
+KIT-5618 CRITICAL-WARNING: the bus debug_temac_tx_data[7:0] is invalid in chipwatcher, ignored.
+KIT-5603 WARNING: Net debug_temac_tx_valid is invalid in chipwatcher, ignored.
+KIT-5618 CRITICAL-WARNING: the bus debug_tx_data[7:0] is invalid in chipwatcher, ignored.
+KIT-5603 WARNING: Net debug_tx_valid is invalid in chipwatcher, ignored.
+KIT-5610 WARNING: compile chipwatcher: reassign: use following clock net u4_trimac_block/rx_clk instead of phy1_rgmii_rx_clk_dup_1.
+USR-6001 WARNING: No ports matched 'get_ports clk'
+USR-6001 WARNING: No pins matched 'get_pins sys_pll_m0/pll_inst.clkc[1]'
+USR-8124 CRITICAL-WARNING: Rename_clock: please specify object list.
+USR-8159 CRITICAL-WARNING: Command rename_clock -name {ext_mem_clk} -source [get_ports {clk}] -master_clock {clk} [get_pins {sys_pll_m0/pll_inst.clkc[1]}] in C:/Users/Lenovo/Desktop/key34/key34/source_code/constraints/UDP.sdc(14) fails.
+PHY-7002 CRITICAL-WARNING: Instance u_sdram/sdram location (12, 12) is not honored. Cell's initial location is not legal at the beginning of ECO placement, and will be moved during placement. Please verify user location constraints through the adc file.
+PHY-7002 CRITICAL-WARNING: Instance u_sdram/sdram location (164, 288) is not honored. Cell's initial location is not legal at the beginning of ECO placement, and will be moved during placement. Please verify user location constraints through the adc file.
+
+USR-6001 WARNING: No ports matched 'get_ports clk'
+USR-6001 WARNING: No pins matched 'get_pins sys_pll_m0/pll_inst.clkc[1]'
+USR-8124 CRITICAL-WARNING: Rename_clock: please specify object list.
+USR-8159 CRITICAL-WARNING: Command rename_clock -name {ext_mem_clk} -source [get_ports {clk}] -master_clock {clk} [get_pins {sys_pll_m0/pll_inst.clkc[1]}] in C:/Users/Lenovo/Desktop/key34/key34/source_code/constraints/UDP.sdc(14) fails.
+PHY-5079 CRITICAL-WARNING: Marked 2 clock net(s) utilize the local routing resources. Please check log message and the sinks of clock nets.
+PHY-5089 WARNING: Skip 172 abnormal timing path for routing due to clock skew is greater than 1000ps or hold slack is less than -1000ps, use load pr.db and report_abnormal_timing_target -file to get detail message. If need to fix these hold violation, place turn on hold fix high.

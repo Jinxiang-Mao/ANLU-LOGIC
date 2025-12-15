@@ -1,0 +1,23 @@
+Location         : C:\Users\Lenovo\Desktop\11_3\10_29_class\q3q4\q4_Runs\syn_1
+Running with     : Tang Dynasty v6.2.168116
+                   Copyright (c) 2012-2025 Anlogic Inc.
+Top Model        : top_dual_udp
+Device           : EG4S20BG256
+Speed            : NA
+
+Timing Mode      : basic
+Setup            : WNS -7291ps  TNS -1415708ps  NUM_FEPS  1049
+Hold             : WNS   471ps  TNS        0ps  NUM_FEPS     0
+
+Flow Statistics  :
+--------------------------------------------------------------------------------------------------
+     command     |  #calls  |  wall time  |  cpu time(s)  |  used memory(mb)  |  peak memory(mb)  
+--------------------------------------------------------------------------------------------------
+  optimize_rtl   |    1     |  17s(51%)   |    16(50%)    |        452        |        545        
+  optimize_gate  |    1     |  16s(48%)   |    16(50%)    |        535        |        545        
+  import_device  |    1     |   0s(0%)    |     0(0%)     |        83         |        83         
+    read_adc     |    1     |   0s(0%)    |     0(0%)     |        283        |        283        
+    read_sdc     |    2     |   0s(0%)    |     0(0%)     |        283        |        283        
+--------------------------------------------------------------------------------------------------
+      total      |    6     |     33s     |      32       |        535        |        545        
+--------------------------------------------------------------------------------------------------

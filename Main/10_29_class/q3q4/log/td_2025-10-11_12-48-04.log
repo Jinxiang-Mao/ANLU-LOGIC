@@ -1,0 +1,320 @@
+PRJ-1004 : This project is imported from C:/Users/30545/Desktop/HXEG420_lab_ex/lab_ex_5_HX4S20_OV5640. Its original project is pic_sdram.
+RUN-1002 : start command "open_project q4.al -update"
+PRJ-6611 WARNING: Load file C:/Users/30545/Desktop/1FPGA_PRJ/q4v4/q4_Runs/syn_1/q4.prj error.
+PRJ-6611 WARNING: Load file C:/Users/30545/Desktop/1FPGA_PRJ/q4v4/q4_Runs/phy_1/q4.prj error.
+RUN-1002 : start command "commit_param -step design"
+RUN-1001 : Print Global Property
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   Parameters   |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   enable_seed  |    off     |       off        |        
+RUN-1001 :     message    |  standard  |     standard     |        
+RUN-1001 :   qor_monitor  |     on     |        on        |        
+RUN-1001 :   syn_ip_flow  |    off     |       off        |        
+RUN-1001 :     thread     |    auto    |       auto       |        
+RUN-1001 : --------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :       Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :   default_reg_initial  |    auto    |       auto       |        
+RUN-1001 :    hdl_warning_level   |   normal   |      normal      |        
+RUN-1001 : ----------------------------------------------------------------
+HDL-1007 : analyze verilog file src/video_define.v
+HDL-1007 : analyze verilog file src/sdram_r/sdram_para.v
+HDL-1007 : analyze verilog file src/sdram/enc_file/global_def.v
+HDL-1007 : analyze verilog file al_ip/afifo_16_32_256.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'wfifo_32_32_512' in al_ip/afifo_16_32_256.v(13)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'wfifo_32_32_512' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in al_ip/afifo_16_32_256.v(13)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'fifo_cross_domain_addr_process_al_wfifo_32_32_512' in al_ip/afifo_16_32_256.v(250)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'fifo_cross_domain_addr_process_al_wfifo_32_32_512' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in al_ip/afifo_16_32_256.v(250)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'ram_infer_wfifo_32_32_512' in al_ip/afifo_16_32_256.v(333)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'ram_infer_wfifo_32_32_512' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in al_ip/afifo_16_32_256.v(333)
+HDL-1007 : analyze verilog file al_ip/afifo_32_16_256.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'rfifo_32_32_512' in al_ip/afifo_32_16_256.v(13)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'rfifo_32_32_512' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in al_ip/afifo_32_16_256.v(13)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'fifo_cross_domain_addr_process_al_rfifo_32_32_512' in al_ip/afifo_32_16_256.v(250)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'fifo_cross_domain_addr_process_al_rfifo_32_32_512' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in al_ip/afifo_32_16_256.v(250)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'ram_infer_rfifo_32_32_512' in al_ip/afifo_32_16_256.v(333)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'ram_infer_rfifo_32_32_512' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in al_ip/afifo_32_16_256.v(333)
+HDL-1007 : analyze verilog file al_ip/sys_pll.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in al_ip/sys_pll.v(70)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'sys_pll' in al_ip/sys_pll.v(23)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'sys_pll' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in al_ip/sys_pll.v(23)
+HDL-1007 : analyze verilog file al_ip/video_pll.v
+HDL-1007 : undeclared symbol 'video_pll_open0', assumed default net type 'wire' in al_ip/video_pll.v(70)
+HDL-1007 : undeclared symbol 'video_pll_open1', assumed default net type 'wire' in al_ip/video_pll.v(76)
+HDL-1007 : undeclared symbol 'video_pll_open9', assumed default net type 'wire' in al_ip/video_pll.v(82)
+HDL-1007 : undeclared symbol 'video_pll_open8', assumed default net type 'wire' in al_ip/video_pll.v(82)
+HDL-1007 : undeclared symbol 'video_pll_open7', assumed default net type 'wire' in al_ip/video_pll.v(82)
+HDL-1007 : undeclared symbol 'video_pll_open6', assumed default net type 'wire' in al_ip/video_pll.v(82)
+HDL-1007 : undeclared symbol 'video_pll_open5', assumed default net type 'wire' in al_ip/video_pll.v(82)
+HDL-1007 : undeclared symbol 'video_pll_open4', assumed default net type 'wire' in al_ip/video_pll.v(82)
+HDL-1007 : undeclared symbol 'video_pll_open3', assumed default net type 'wire' in al_ip/video_pll.v(82)
+HDL-1007 : undeclared symbol 'video_pll_open2', assumed default net type 'wire' in al_ip/video_pll.v(82)
+HDL-1007 : undeclared symbol 'video_pll_open12', assumed default net type 'wire' in al_ip/video_pll.v(84)
+HDL-1007 : undeclared symbol 'video_pll_open11', assumed default net type 'wire' in al_ip/video_pll.v(84)
+HDL-1007 : undeclared symbol 'video_pll_open10', assumed default net type 'wire' in al_ip/video_pll.v(84)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'video_pll' in al_ip/video_pll.v(23)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'video_pll' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in al_ip/video_pll.v(23)
+HDL-1007 : analyze verilog file src/color_bar.v
+HDL-1007 : analyze included file src/video_define.v in src/color_bar.v(2)
+HDL-1007 : back to file 'src/color_bar.v' in src/color_bar.v(2)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'color_bar' in src/color_bar.v(3)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'color_bar' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in src/color_bar.v(3)
+HDL-1007 : analyze verilog file src/frame_fifo_read.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'frame_fifo_read' in src/frame_fifo_read.v(2)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'frame_fifo_read' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in src/frame_fifo_read.v(2)
+HDL-1007 : analyze verilog file src/frame_fifo_write.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'frame_fifo_write' in src/frame_fifo_write.v(2)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'frame_fifo_write' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in src/frame_fifo_write.v(2)
+HDL-1007 : analyze verilog file src/top.v
+HDL-1007 : undeclared symbol 'sdram_clk', assumed default net type 'wire' in src/top.v(96)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'top' in src/top.v(1)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'top' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in src/top.v(1)
+HDL-1007 : analyze verilog file src/video_timing_data.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'video_timing_data' in src/video_timing_data.v(1)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'video_timing_data' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in src/video_timing_data.v(1)
+HDL-1007 : analyze verilog file src/sdram/enc_file/sdr_as_ram.enc.v
+HDL-1007 : back to file 'src/sdram/enc_file/sdr_as_ram.enc.v' in src/sdram/enc_file/sdr_as_ram.enc.v(45)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'sdr_as_ram' in src/sdram/enc_file/sdr_as_ram.enc.v(12)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'sdr_as_ram' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in src/sdram/enc_file/sdr_as_ram.enc.v(12)
+HDL-1007 : analyze verilog file src/sdram/enc_file/sdr_wrrd.enc.v
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in src/sdram/enc_file/sdr_wrrd.enc.v(283)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in src/sdram/enc_file/sdr_wrrd.enc.v(3)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in src/sdram/enc_file/sdr_wrrd.enc.v(3)
+HDL-1007 : back to file 'src/sdram/enc_file/sdr_wrrd.enc.v' in src/sdram/enc_file/sdr_wrrd.enc.v(19)
+HDL-1007 : analyze verilog file src/sdram/sdram.v
+HDL-1007 : analyze included file ./src/sdram/enc_file/global_def.v in src/sdram/sdram.v(10)
+HDL-1007 : back to file 'src/sdram/sdram.v' in src/sdram/sdram.v(10)
+HDL-1007 : undeclared symbol 'SDR_CKE', assumed default net type 'wire' in src/sdram/sdram.v(89)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'sdram' in src/sdram/sdram.v(12)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'sdram' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in src/sdram/sdram.v(12)
+HDL-1007 : analyze verilog file src/frame_read_write.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'frame_read_write' in src/frame_read_write.v(2)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'frame_read_write' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in src/frame_read_write.v(2)
+HDL-1007 : analyze verilog file src/video_delay.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'video_delay' in src/video_delay.v(1)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'video_delay' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in src/video_delay.v(1)
+HDL-1007 : analyze VHDL file src/hdmi/enc_file/DVITransmitter.enc.vhd
+HDL-1007 : analyze entity dvitransmitter in src/hdmi/enc_file/DVITransmitter.enc.vhd(13)
+HDL-7202 CRITICAL-WARNING: primary unit 'dvitransmitter' is previously defined; ignoring this definition in src/hdmi/enc_file/DVITransmitter.enc.vhd(13)
+HDL-1007 : analyze architecture ** in src/hdmi/enc_file/DVITransmitter.enc.vhd(2)
+HDL-7202 CRITICAL-WARNING: secondary unit 'behavioral' is previously defined; ignoring this definition in src/hdmi/enc_file/DVITransmitter.enc.vhd(2)
+HDL-1007 : analyze VHDL file src/hdmi/enc_file/SerializerN_1_lvds.enc.vhd
+HDL-1007 : analyze entity ** in src/hdmi/enc_file/SerializerN_1_lvds.enc.vhd(12)
+HDL-7202 CRITICAL-WARNING: ** unit '**' is previously defined; ignoring this definition in src/hdmi/enc_file/SerializerN_1_lvds.enc.vhd(12)
+HDL-1007 : analyze architecture ** in src/hdmi/enc_file/SerializerN_1_lvds.enc.vhd(25)
+HDL-7202 CRITICAL-WARNING: ** unit '**' is previously defined; ignoring this definition in src/hdmi/enc_file/SerializerN_1_lvds.enc.vhd(25)
+HDL-1007 : analyze VHDL file src/hdmi/enc_file/SerializerN_1_lvds_dat.enc.vhd
+HDL-1007 : analyze entity ** in src/hdmi/enc_file/SerializerN_1_lvds_dat.enc.vhd(14)
+HDL-7202 CRITICAL-WARNING: ** unit '**' is previously defined; ignoring this definition in src/hdmi/enc_file/SerializerN_1_lvds_dat.enc.vhd(14)
+HDL-1007 : analyze architecture ** in src/hdmi/enc_file/SerializerN_1_lvds_dat.enc.vhd(28)
+HDL-7202 CRITICAL-WARNING: ** unit '**' is previously defined; ignoring this definition in src/hdmi/enc_file/SerializerN_1_lvds_dat.enc.vhd(28)
+HDL-1007 : analyze VHDL file src/hdmi/enc_file/TMDSEncoder.enc.vhd
+HDL-1007 : analyze entity ** in src/hdmi/enc_file/TMDSEncoder.enc.vhd(13)
+HDL-7202 CRITICAL-WARNING: ** unit '**' is previously defined; ignoring this definition in src/hdmi/enc_file/TMDSEncoder.enc.vhd(13)
+HDL-1007 : analyze architecture ** in src/hdmi/enc_file/TMDSEncoder.enc.vhd(24)
+HDL-7202 CRITICAL-WARNING: ** unit '**' is previously defined; ignoring this definition in src/hdmi/enc_file/TMDSEncoder.enc.vhd(24)
+HDL-1007 : analyze verilog file src/hdmi/enc_file/video_tpg_1024768.enc.v
+HDL-5007 WARNING: literal value ** truncated to fit in ** bits in src/hdmi/enc_file/video_tpg_1024768.enc.v(231)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in src/hdmi/enc_file/video_tpg_1024768.enc.v(27)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in src/hdmi/enc_file/video_tpg_1024768.enc.v(27)
+HDL-1007 : back to file 'src/hdmi/enc_file/video_tpg_1024768.enc.v' in src/hdmi/enc_file/video_tpg_1024768.enc.v(1)
+HDL-1007 : analyze verilog file src/hdmi/enc_file/video_tpg_1080p.enc.v
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in src/hdmi/enc_file/video_tpg_1080p.enc.v(27)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in src/hdmi/enc_file/video_tpg_1080p.enc.v(27)
+HDL-1007 : back to file 'src/hdmi/enc_file/video_tpg_1080p.enc.v' in src/hdmi/enc_file/video_tpg_1080p.enc.v(1)
+HDL-1007 : analyze verilog file src/hdmi/enc_file/video_tpg_12801024p.enc.v
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in src/hdmi/enc_file/video_tpg_12801024p.enc.v(26)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in src/hdmi/enc_file/video_tpg_12801024p.enc.v(26)
+HDL-1007 : back to file 'src/hdmi/enc_file/video_tpg_12801024p.enc.v' in src/hdmi/enc_file/video_tpg_12801024p.enc.v(1)
+HDL-1007 : analyze verilog file src/hdmi/enc_file/video_tpg_1280800.enc.v
+HDL-5007 WARNING: literal value ** truncated to fit in ** bits in src/hdmi/enc_file/video_tpg_1280800.enc.v(233)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in src/hdmi/enc_file/video_tpg_1280800.enc.v(29)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in src/hdmi/enc_file/video_tpg_1280800.enc.v(29)
+HDL-1007 : back to file 'src/hdmi/enc_file/video_tpg_1280800.enc.v' in src/hdmi/enc_file/video_tpg_1280800.enc.v(1)
+HDL-1007 : analyze verilog file src/hdmi/enc_file/video_tpg_16801050p.enc.v
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in src/hdmi/enc_file/video_tpg_16801050p.enc.v(26)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in src/hdmi/enc_file/video_tpg_16801050p.enc.v(26)
+HDL-1007 : back to file 'src/hdmi/enc_file/video_tpg_16801050p.enc.v' in src/hdmi/enc_file/video_tpg_16801050p.enc.v(1)
+HDL-1007 : analyze verilog file src/hdmi/enc_file/video_tpg_800600.enc.v
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in src/hdmi/enc_file/video_tpg_800600.enc.v(29)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in src/hdmi/enc_file/video_tpg_800600.enc.v(29)
+HDL-1007 : back to file 'src/hdmi/enc_file/video_tpg_800600.enc.v' in src/hdmi/enc_file/video_tpg_800600.enc.v(1)
+HDL-1007 : analyze VHDL file src/hdmi/hdmi_tx.vhd
+HDL-1007 : analyze entity hdmi_tx in src/hdmi/hdmi_tx.vhd(11)
+HDL-7202 CRITICAL-WARNING: primary unit 'hdmi_tx' is previously defined; ignoring this definition in src/hdmi/hdmi_tx.vhd(11)
+HDL-1007 : analyze architecture behavioral in src/hdmi/hdmi_tx.vhd(33)
+HDL-7202 CRITICAL-WARNING: secondary unit 'behavioral' is previously defined; ignoring this definition in src/hdmi/hdmi_tx.vhd(33)
+HDL-1007 : analyze verilog file src/sdram/enc_file/sdr_init_ref.enc.v
+HDL-1007 : analyze included file ./src/sdram/enc_file/global_def.v in src/sdram/enc_file/sdr_init_ref.enc.v(11)
+HDL-1007 : back to file 'src/sdram/enc_file/sdr_init_ref.enc.v' in src/sdram/enc_file/sdr_init_ref.enc.v(11)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in src/sdram/enc_file/sdr_init_ref.enc.v(57)
+HDL-1007 : back to file 'src/sdram/enc_file/sdr_init_ref.enc.v' in src/sdram/enc_file/sdr_init_ref.enc.v(149)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in src/sdram/enc_file/sdr_init_ref.enc.v(47)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'sdr_init_ref' in src/sdram/enc_file/sdr_init_ref.enc.v(13)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'sdr_init_ref' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in src/sdram/enc_file/sdr_init_ref.enc.v(13)
+HDL-1007 : analyze verilog file src/ov5640/cmos_capture_data.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'cmos_capture_data' in src/ov5640/cmos_capture_data.v(23)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'cmos_capture_data' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in src/ov5640/cmos_capture_data.v(23)
+HDL-1007 : analyze verilog file src/ov5640/i2c_dri.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'i2c_dri' in src/ov5640/i2c_dri.v(24)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'i2c_dri' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in src/ov5640/i2c_dri.v(24)
+HDL-1007 : analyze verilog file src/ov5640/i2c_ov5640_rgb565_cfg.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'i2c_ov5640_rgb565_cfg' in src/ov5640/i2c_ov5640_rgb565_cfg.v(24)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'i2c_ov5640_rgb565_cfg' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in src/ov5640/i2c_ov5640_rgb565_cfg.v(24)
+HDL-1007 : analyze verilog file src/ov5640/ov5640_dri.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'ov5640_dri' in src/ov5640/ov5640_dri.v(24)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'ov5640_dri' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in src/ov5640/ov5640_dri.v(24)
+HDL-1007 : analyze verilog file src/ov5640/ov5640_delay.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'ov5640_delay' in src/ov5640/ov5640_delay.v(1)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'ov5640_delay' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in src/ov5640/ov5640_delay.v(1)
+PRJ-1401 : Successfully analyzed 34 source files.
+RUN-1002 : start command "commit_param -step design"
+RUN-1001 : Print Global Property
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   Parameters   |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   enable_seed  |    off     |       off        |        
+RUN-1001 :     message    |  standard  |     standard     |        
+RUN-1001 :   qor_monitor  |     on     |        on        |        
+RUN-1001 :   syn_ip_flow  |    off     |       off        |        
+RUN-1001 :     thread     |    auto    |       auto       |        
+RUN-1001 : --------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :       Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :   default_reg_initial  |    auto    |       auto       |        
+RUN-1001 :    hdl_warning_level   |   normal   |      normal      |        
+RUN-1001 : ----------------------------------------------------------------
+HDL-1007 : analyze verilog file src/video_define.v
+HDL-1007 : analyze verilog file src/sdram_r/sdram_para.v
+HDL-1007 : analyze verilog file src/sdram/enc_file/global_def.v
+HDL-1007 : analyze verilog file al_ip/afifo_16_32_256.v
+HDL-1007 : analyze verilog file al_ip/afifo_32_16_256.v
+HDL-1007 : analyze verilog file al_ip/sys_pll.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in al_ip/sys_pll.v(70)
+HDL-1007 : analyze verilog file al_ip/video_pll.v
+HDL-1007 : undeclared symbol 'video_pll_open0', assumed default net type 'wire' in al_ip/video_pll.v(70)
+HDL-1007 : undeclared symbol 'video_pll_open1', assumed default net type 'wire' in al_ip/video_pll.v(76)
+HDL-1007 : undeclared symbol 'video_pll_open9', assumed default net type 'wire' in al_ip/video_pll.v(82)
+HDL-1007 : undeclared symbol 'video_pll_open8', assumed default net type 'wire' in al_ip/video_pll.v(82)
+HDL-1007 : undeclared symbol 'video_pll_open7', assumed default net type 'wire' in al_ip/video_pll.v(82)
+HDL-1007 : undeclared symbol 'video_pll_open6', assumed default net type 'wire' in al_ip/video_pll.v(82)
+HDL-1007 : undeclared symbol 'video_pll_open5', assumed default net type 'wire' in al_ip/video_pll.v(82)
+HDL-1007 : undeclared symbol 'video_pll_open4', assumed default net type 'wire' in al_ip/video_pll.v(82)
+HDL-1007 : undeclared symbol 'video_pll_open3', assumed default net type 'wire' in al_ip/video_pll.v(82)
+HDL-1007 : undeclared symbol 'video_pll_open2', assumed default net type 'wire' in al_ip/video_pll.v(82)
+HDL-1007 : undeclared symbol 'video_pll_open12', assumed default net type 'wire' in al_ip/video_pll.v(84)
+HDL-1007 : undeclared symbol 'video_pll_open11', assumed default net type 'wire' in al_ip/video_pll.v(84)
+HDL-1007 : undeclared symbol 'video_pll_open10', assumed default net type 'wire' in al_ip/video_pll.v(84)
+HDL-1007 : analyze verilog file src/color_bar.v
+HDL-1007 : analyze included file src/video_define.v in src/color_bar.v(2)
+HDL-1007 : back to file 'src/color_bar.v' in src/color_bar.v(2)
+HDL-1007 : analyze verilog file src/frame_fifo_read.v
+HDL-1007 : analyze verilog file src/frame_fifo_write.v
+HDL-1007 : analyze verilog file src/top.v
+HDL-1007 : undeclared symbol 'sdram_clk', assumed default net type 'wire' in src/top.v(96)
+HDL-1007 : analyze verilog file src/video_timing_data.v
+HDL-1007 : analyze verilog file src/sdram/enc_file/sdr_as_ram.enc.v
+HDL-1007 : back to file 'src/sdram/enc_file/sdr_as_ram.enc.v' in src/sdram/enc_file/sdr_as_ram.enc.v(45)
+HDL-1007 : analyze verilog file src/sdram/enc_file/sdr_wrrd.enc.v
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in src/sdram/enc_file/sdr_wrrd.enc.v(283)
+HDL-1007 : back to file 'src/sdram/enc_file/sdr_wrrd.enc.v' in src/sdram/enc_file/sdr_wrrd.enc.v(19)
+HDL-1007 : analyze verilog file src/sdram/sdram.v
+HDL-1007 : analyze included file ./src/sdram/enc_file/global_def.v in src/sdram/sdram.v(10)
+HDL-1007 : back to file 'src/sdram/sdram.v' in src/sdram/sdram.v(10)
+HDL-1007 : undeclared symbol 'SDR_CKE', assumed default net type 'wire' in src/sdram/sdram.v(89)
+HDL-1007 : analyze verilog file src/frame_read_write.v
+HDL-1007 : analyze verilog file src/video_delay.v
+HDL-1007 : analyze VHDL file src/hdmi/enc_file/DVITransmitter.enc.vhd
+HDL-1007 : analyze entity dvitransmitter in src/hdmi/enc_file/DVITransmitter.enc.vhd(13)
+HDL-1007 : analyze architecture ** in src/hdmi/enc_file/DVITransmitter.enc.vhd(2)
+HDL-1007 : analyze VHDL file src/hdmi/enc_file/SerializerN_1_lvds.enc.vhd
+HDL-1007 : analyze entity ** in src/hdmi/enc_file/SerializerN_1_lvds.enc.vhd(12)
+HDL-1007 : analyze architecture ** in src/hdmi/enc_file/SerializerN_1_lvds.enc.vhd(25)
+HDL-1007 : analyze VHDL file src/hdmi/enc_file/SerializerN_1_lvds_dat.enc.vhd
+HDL-1007 : analyze entity ** in src/hdmi/enc_file/SerializerN_1_lvds_dat.enc.vhd(14)
+HDL-1007 : analyze architecture ** in src/hdmi/enc_file/SerializerN_1_lvds_dat.enc.vhd(28)
+HDL-1007 : analyze VHDL file src/hdmi/enc_file/TMDSEncoder.enc.vhd
+HDL-1007 : analyze entity ** in src/hdmi/enc_file/TMDSEncoder.enc.vhd(13)
+HDL-1007 : analyze architecture ** in src/hdmi/enc_file/TMDSEncoder.enc.vhd(24)
+HDL-1007 : analyze verilog file src/hdmi/enc_file/video_tpg_1024768.enc.v
+HDL-5007 WARNING: literal value ** truncated to fit in ** bits in src/hdmi/enc_file/video_tpg_1024768.enc.v(231)
+HDL-1007 : back to file 'src/hdmi/enc_file/video_tpg_1024768.enc.v' in src/hdmi/enc_file/video_tpg_1024768.enc.v(1)
+HDL-1007 : analyze verilog file src/hdmi/enc_file/video_tpg_1080p.enc.v
+HDL-1007 : back to file 'src/hdmi/enc_file/video_tpg_1080p.enc.v' in src/hdmi/enc_file/video_tpg_1080p.enc.v(1)
+HDL-1007 : analyze verilog file src/hdmi/enc_file/video_tpg_12801024p.enc.v
+HDL-1007 : back to file 'src/hdmi/enc_file/video_tpg_12801024p.enc.v' in src/hdmi/enc_file/video_tpg_12801024p.enc.v(1)
+HDL-1007 : analyze verilog file src/hdmi/enc_file/video_tpg_1280800.enc.v
+HDL-5007 WARNING: literal value ** truncated to fit in ** bits in src/hdmi/enc_file/video_tpg_1280800.enc.v(233)
+HDL-1007 : back to file 'src/hdmi/enc_file/video_tpg_1280800.enc.v' in src/hdmi/enc_file/video_tpg_1280800.enc.v(1)
+HDL-1007 : analyze verilog file src/hdmi/enc_file/video_tpg_16801050p.enc.v
+HDL-1007 : back to file 'src/hdmi/enc_file/video_tpg_16801050p.enc.v' in src/hdmi/enc_file/video_tpg_16801050p.enc.v(1)
+HDL-1007 : analyze verilog file src/hdmi/enc_file/video_tpg_800600.enc.v
+HDL-1007 : back to file 'src/hdmi/enc_file/video_tpg_800600.enc.v' in src/hdmi/enc_file/video_tpg_800600.enc.v(1)
+HDL-1007 : analyze VHDL file src/hdmi/hdmi_tx.vhd
+HDL-1007 : analyze entity hdmi_tx in src/hdmi/hdmi_tx.vhd(11)
+HDL-1007 : analyze architecture behavioral in src/hdmi/hdmi_tx.vhd(33)
+HDL-1007 : analyze verilog file src/sdram/enc_file/sdr_init_ref.enc.v
+HDL-1007 : analyze included file ./src/sdram/enc_file/global_def.v in src/sdram/enc_file/sdr_init_ref.enc.v(11)
+HDL-1007 : back to file 'src/sdram/enc_file/sdr_init_ref.enc.v' in src/sdram/enc_file/sdr_init_ref.enc.v(11)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in src/sdram/enc_file/sdr_init_ref.enc.v(57)
+HDL-1007 : back to file 'src/sdram/enc_file/sdr_init_ref.enc.v' in src/sdram/enc_file/sdr_init_ref.enc.v(149)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in src/sdram/enc_file/sdr_init_ref.enc.v(47)
+HDL-1007 : analyze verilog file src/ov5640/cmos_capture_data.v
+HDL-1007 : analyze verilog file src/ov5640/i2c_dri.v
+HDL-1007 : analyze verilog file src/ov5640/i2c_ov5640_rgb565_cfg.v
+HDL-1007 : analyze verilog file src/ov5640/ov5640_dri.v
+HDL-1007 : analyze verilog file src/ov5640/ov5640_delay.v
+PRJ-6611 WARNING: Load file C:/Users/30545/Desktop/1FPGA_PRJ/q4v4/q4_Runs/syn_1/q4.prj error.
+PRJ-6611 WARNING: Load file C:/Users/30545/Desktop/1FPGA_PRJ/q4v4/q4_Runs/phy_1/q4.prj error.
+PRJ-6611 WARNING: Load file C:/Users/30545/Desktop/1FPGA_PRJ/q4v4/q4_Runs/syn_1/q4.prj error.
+PRJ-6611 WARNING: Load file C:/Users/30545/Desktop/1FPGA_PRJ/q4v4/q4_Runs/phy_1/q4.prj error.
+RUN-1002 : start command "import_db C:/Users/30545/Desktop/1FPGA_PRJ/q4v4/q4_Runs/phy_1/q4_pr.db"
+RUN-1001 : Importing database generated by Tang Dynasty, V6.2.168116.
+RUN-1001 : Database version number 46207
+RUN-1001 : Import flow parameters
+RUN-1001 : Import netlist
+PHY-1001 : Generate detailed routing grids ...
+PHY-1001 : End build routing graph; 0.515109s wall, 0.390625s user + 0.125000s system = 0.515625s CPU (100.1%)
+
+PHY-1001 : Build lut bridge;  0.046756s wall, 0.046875s user + 0.000000s system = 0.046875s CPU (100.3%)
+
+PHY-1001 : Generate nets ...
+PHY-1001 : net clk_dup_1 will be routed on clock mesh
+PHY-1001 : clock net U3/Clk will be merged with clock sys_pll_m0/clk0_buf
+PHY-1001 : net U3/u2_ram/SDRAM_CLK will be routed on clock mesh
+PHY-1001 : clock net cwc_jtck_syn_2 will be merged with clock cwc_jtck
+PHY-1001 : clock net u_ov5640_dri/u_i2c_dr/dri_clk_syn_4 will be merged with clock u_ov5640_dri/u_i2c_dr/dri_clk
+PHY-1001 : clock net frame_read_write_m0/write_buf/clkw_syn_2 will be merged with clock frame_read_write_m0/write_buf/clkw
+PHY-1001 : net u3_hdmi_tx/Inst_DVITransmitter/PCLK_X5_I will be routed on clock mesh
+PHY-1001 : clock net video_timing_data_m0/video_clk will be merged with clock video_pll_m0/clk0_buf
+PHY-1001 : eco open net = 0
+PHY-1001 : 21 feed throughs used by 20 nets
+RUN-1001 : Import phy database
+RUN-1001 : Import timing constraints
+RUN-1001 : Import IO constraints
+RUN-1001 : Import Inst constraints
+RUN-1001 : Import ChipWatcher
+RUN-1001 : Import design success TD_VERSION=6.2.168116 , DB_VERSION=46207
+RUN-1003 : finish command "import_db C:/Users/30545/Desktop/1FPGA_PRJ/q4v4/q4_Runs/phy_1/q4_pr.db" in  1.316234s wall, 1.171875s user + 0.296875s system = 1.468750s CPU (111.6%)
+
+RUN-1004 : used memory is 620 MB, reserved memory is 634 MB, peak memory is 684 MB
+PRJ-1412 : reset_run syn_1.
+PRJ-1411 : launch_runs syn_1 -step read_design.
+PRJ-1412 : reset_run phy_1.
+RUN-1002 : start command "save_best_bits"
+PRJ-1410 : Run syn_1 success.
+RUN-1002 : start command "import_db C:/Users/30545/Desktop/1FPGA_PRJ/q4v4/q4_Runs/syn_1/q4_elaborate.db"
+RUN-1001 : Importing database generated by Tang Dynasty, V6.2.168116.
+RUN-1001 : Database version number 46207
+RUN-1001 : Import flow parameters
+RUN-1001 : Import netlist
+RUN-1001 : Import timing constraints
+RUN-1001 : Import IO constraints
+RUN-1001 : Import Inst constraints
+RUN-1001 : Import ChipWatcher
+RUN-1001 : Import design success TD_VERSION=6.2.168116 , DB_VERSION=46207

@@ -1,0 +1,23 @@
+Location         : C:\Users\Lenovo\Desktop\key34\key34\prj\UDP_EXAMPLE\UDP_EXAMPLE_Runs\phy_1
+Running with     : Tang Dynasty v6.2.168116
+                   Copyright (c) 2012-2025 Anlogic Inc.
+Top Model        : UDP_Example_Top
+Device           : EG4S20BG256
+Speed            : NA
+
+Timing Mode      : final
+Setup            : WNS -4759ps  TNS  -673603ps  NUM_FEPS   511
+Hold             : WNS -5040ps  TNS  -489425ps  NUM_FEPS   250
+
+Flow Statistics  :
+--------------------------------------------------------------------------------------------------
+     command     |  #calls  |  wall time  |  cpu time(s)  |  used memory(mb)  |  peak memory(mb)  
+--------------------------------------------------------------------------------------------------
+      route      |    1     |  29s(61%)   |    36(56%)    |        815        |        815        
+      place      |    1     |  18s(38%)   |    28(43%)    |        415        |        415        
+    import_db    |    3     |   0s(0%)    |     0(0%)     |        279        |        279        
+  import_device  |    1     |   0s(0%)    |     0(0%)     |        83         |        83         
+      pack       |    1     |   0s(0%)    |     0(0%)     |        279        |        279        
+--------------------------------------------------------------------------------------------------
+      total      |    7     |     47s     |      64       |        815        |        815        
+--------------------------------------------------------------------------------------------------
